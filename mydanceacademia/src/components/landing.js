@@ -3,16 +3,13 @@ import club from "../images/club.png";
 import girls from "../images/girls.png";
 import oldschool from "../images/oldschool.png";
 import schedule from "../images/schedule.png"
-const Landing = ()=>{
+
+
+
+const Landing = ()=> {
     return (<div>
         <header className="container">
-    <div className="navContainer">
-        My Dance Academia
-        <ul>
-        <li>About Us</li>
-        <li>Contact</li>
-        </ul>
-        </div>
+    
         <h1> Available to apply for the fall Semester</h1>
         </header>
         <section className="semester">
@@ -40,9 +37,8 @@ const Landing = ()=>{
         <section className="schedule">
             <h2>Schedule</h2>
             <h5>01/02 ~ 01/05</h5>
-<img src={schedule} alt="dance schedule"/>
+<img className="scheduleImg" src={schedule} alt="dance schedule"/>
         </section>
-        
         </div>
 )
 
